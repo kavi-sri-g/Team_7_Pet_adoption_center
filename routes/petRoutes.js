@@ -1,5 +1,5 @@
 import Router from "express";
-import pet_model from "../models/petmodel.js";
+import pet_model from "../models/pet_model.js";
 const router = Router();
 
 //dharanikumar - team member 3 - task 3
