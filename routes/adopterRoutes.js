@@ -2,7 +2,6 @@ import Router from "express";
 import adopter_model from "../models/adopter_model.js";
 const router = Router();
 
-//aksharasree_task2
 router.post("/adopter_p", async (req, res) => {
   try {
     const adopter1 = adopter_model(req.body);
